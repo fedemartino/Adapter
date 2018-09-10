@@ -1,5 +1,8 @@
-interface SmartRemote 
+namespace Adapater
 {
-    void StartNetflix(ISmartTV smartTv);
-    void StartYouTube(ISmartTV smartTv);
+    interface SmartRemote 
+    {
+        void StartNetflix(ISmartTV smartTv);
+        void StartYouTube(ISmartTV smartTv);
+    }
 }
