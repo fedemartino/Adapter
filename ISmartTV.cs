@@ -1,6 +1,6 @@
 namespace Adapater
 {
-    interface ISmartTV
+    interface ISmartTV : ITV
     {
         void PlayNetflix();
         void PlayYoutube();
